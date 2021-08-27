@@ -13,6 +13,11 @@ button {
     outline: none!important;
 }
 
+.btn:focus {
+    border : 1px solid black;
+    color : #ef6423;
+}
+
 a:hover {
     text-decoration: none;
     cursor: pointer;
@@ -307,6 +312,10 @@ a:hover {
     display: inline;
 }
 
+.navbar-brand img:focus{
+  border: 1px solid;
+}
+
 .navbar-brand img[src$=svg] {
     min-width: 100px;
 }
@@ -326,6 +335,10 @@ a:hover {
     float: left;
     margin-top: 4px;
     font-size: 16px;
+}
+
+.nav > li:focus{
+  border: 1px solid;
 }
 
 .navbar-nav .open .dropdown-menu > li > a {
@@ -723,7 +736,7 @@ h3 {
 }
 
 h1 {
-    color: #333333!important;
+    color: #fff!important;
 }
 
 h4 {
@@ -775,7 +788,7 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #fff!important;
 }
 
 .btn-atomic-tangerine {
@@ -1039,4 +1052,8 @@ h4 {
     .bloc-mob-center-text {
         text-align: center;
     }
+}
+
+.col-sm-3:focus{
+  border: 1px solid;
 }
